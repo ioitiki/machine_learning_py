@@ -18,3 +18,6 @@ predictions = model.predict(X_test)
 
 #r squared, coefficient of determination
 print model.score(X_test, y_test)
+
+#mean squared error
+print metrics.mean_squared_error(y_test, predictions)
